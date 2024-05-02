@@ -1,0 +1,7 @@
+.home-title {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f4f0;
+}

@@ -1,0 +1,18 @@
+/* Error404 component styles */
+.error-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.error-title {
+    font-size: 36px;
+    color: #ff6347;
+    /* Tomato color */
+    margin-bottom: 20px;
+}
+
+.error-message {
+    font-size: 18px;
+    color: #333;
+    /* Dark gray color */
+}

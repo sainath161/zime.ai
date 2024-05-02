@@ -1,0 +1,156 @@
+/* TableComponent.css */
+
+/* Container styles */
+.table-container {
+    padding: 20px;
+    background-color: #f5f4f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section title styles */
+.section-title {
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Search input styles */
+.search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    /* width: 250px; */
+    font-size: 16px;
+    outline: none;
+    background: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.search-input:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.select-dropdown select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    background: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.select-dropdown select:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for dropdown options */
+.select-dropdown select option:hover {
+    background-color: #e0e0e0;
+    /* hover background color */
+}
+
+/* Tag filter select styles */
+.tag-filter-select {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+/* Table styles */
+.custom-table {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styles */
+.custom-table .ant-table-thead>tr>th {
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Table row styles */
+.custom-table .ant-table-tbody>tr>td {
+    border-bottom: 1px solid #939393;
+    background: #ffffff;
+}
+
+/* Pagination styles */
+.ant-pagination {
+    margin-top: 20px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.ant-pagination-item,
+.ant-pagination-item-link {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.ant-pagination-item:last-child,
+.ant-pagination-item-link:last-child {
+    margin-right: 0;
+}
+
+.ant-pagination-item:hover,
+.ant-pagination-item-link:hover {
+    background-color: #00ff0d;
+    /* color: #fff !important; */
+    border-radius: 50%;
+}
+
+.ant-pagination-item-active,
+.ant-pagination-item-active:hover,
+.ant-pagination-item-link-active,
+.ant-pagination-item-link-active:hover {
+    background-color: #cee3f6;
+    color: #fff;
+    border-color: #1890ff;
+    border-radius: 50%;
+}
+
+.ant-pagination-prev,
+.ant-pagination-next,
+.ant-pagination-jump-prev,
+.ant-pagination-jump-next {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #a09e9e;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.ant-pagination-prev:hover,
+.ant-pagination-next:hover,
+.ant-pagination-jump-prev:hover,
+.ant-pagination-jump-next:hover {
+    /* background-color: #00ffc3; */
+    border-radius: 50%;
+}
+
+.ant-pagination-disabled {
+    cursor: not-allowed;
+    color: #ccc;
+    border-radius: 50%;
+}
