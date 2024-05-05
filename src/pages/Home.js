@@ -48,7 +48,9 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <h1 className="home-title">Zime.ai</h1>
+      <h1 className="home-title">
+        Hello this is Laxmi Sainath Islavath. This is my assignment of Zime.ai
+      </h1>
       <TableComponent
         data={filteredPosts} // Pass filtered posts to TableComponent
         loading={false} // Add loading state if necessary
